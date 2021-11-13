@@ -1,0 +1,144 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-12T12:02:53.140Z",
+        "line": 16,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5942346000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Opening the browser",
+            "match": {
+              "location": "stepdefinitions.CommonSteps.opening_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176892000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter username",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80329000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter password",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48135000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click login",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.click_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4072482000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click bookstore",
+            "match": {
+              "location": "stepdefinitions.ProfileSteps.i_click_bookstore()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 259800000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter search text as \"Git\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Git",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.ProfileSteps.enter_search_text_as_Git(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 901374000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click search result as \"Git\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Git",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.BooksSteps.click_search_result_as_Git(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23554000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Get title of the book",
+            "match": {
+              "location": "stepdefinitions.BookResultSteps.get_title_of_the_book()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 275516000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click logout",
+            "match": {
+              "location": "stepdefinitions.BookResultSteps.click_logout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/feature/TestCase1.feature",
+    "tags": []
+  }
+]

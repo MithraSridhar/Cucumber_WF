@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.792">
+    <testcase classname="Title of your feature" name="Title of your scenario" time="11.674">
+        <system-out><![CDATA[Given Opening the browser...................................................passed
+And Enter username..........................................................passed
+And Enter password..........................................................passed
+When Click login............................................................passed
+When Click bookstore........................................................passed
+And Enter search text as "Git"..............................................passed
+And Click search result as "Git"............................................passed
+Then Get title of the book..................................................passed
+And Click logout............................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
